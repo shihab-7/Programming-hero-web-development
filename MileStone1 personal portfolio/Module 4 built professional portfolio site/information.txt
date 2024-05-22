@@ -1,0 +1,8 @@
+font er deign er jonno google fonts use kora hoy
+
+font use korar jonno link head tag er moddhe rekhe css file er vitor font family add kore nite hobe j tag a use korbo. nahoile change dekha jabe na.
+
+kono tag er vitor text er kono specific jaygate kono design korar jonno span tag diye oitar class set kore oita css file a dhore design kora hoy.
+
+html er body by default auto kisu margin niye ney tai css a body tag er margin 0 kore nite hoy full page background image or elements cover korar jonno . 
+kono section k flex korle sathe setar background image dile seta repeat kore tai css a oi section k dhore background-repeat no-repeat kore dite hoy
