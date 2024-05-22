@@ -75,3 +75,15 @@ Git merge korar jonno ===>>
 j brunch a merge korbo code oitay checkout kore oitar vitor dhuke git merge branch er nam jeta k merge korte chai 
 
 example git merge new-h1-added dilei merge hoye jabe then git push dile github a o update hoye jabe main branch a thaka code ta.
+
+for extra query search on google git branch and merge commands and visit the github official website link. 
+
+
+
+Git pull, toggle branch , merge conflict ===>>>
+
+git checkout branch name dile oi branch a chole jowa bujhay 
+r git checkout -b branch name dile akta new branch toiri hoy oi nam a then oitar vitor chole jay .
+
+akta project korar somoy main branch a mul project thake r onno branch a ak akta features thake ei jonno new branch gulake feature branch bola hoy . sob kaj sesh a main branch rekhe baki branch gulo delete o kora jay pore. ei jonno 
+git branch -d branch name dilei oi branch delete hoye jay .
