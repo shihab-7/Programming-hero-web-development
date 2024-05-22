@@ -89,3 +89,5 @@ akta project korar somoy main branch a mul project thake r onno branch a ak akta
 git branch -d branch name dilei oi branch delete hoye jay .
 
 git status diye dekha jay j ki ki update kora hoise but push kora hoynai .
+
+akhon git a multiple branch niye kaj korar somoy jodi same code er same line a multiple user kono change kore tobe merge korar somoy conflict message show korbe then option dibe j current change accept korbo naki ager tai thakbe oita situation er upor depend korbe j change konta accept korbo . then resolve howar por abar git add . git commit-m"issue detail" git push korle sob merge hoye update hoye jabe .
