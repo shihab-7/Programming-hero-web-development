@@ -1,0 +1,50 @@
+git scm = source control management
+
+command prompt a cd te change directory . cd diye .. diye ager folder a move kore r cd diye folder er nam diye diye samner folder a dhukey .
+
+git commands ===
+
+echo "# j title diye readme md file start korbo" >> README.md
+
+git init == folder tar moddhe .git akta file banay track rakahar jonno
+
+git add . == sob file add kore 
+git commit -m "j j change korsi file a oisob er short description"
+
+r first time git use korle git config kora lage
+
+git config --global user.email "mail address"
+git config --global user.name "name"
+
+er por abar commit korle vejal sesh .
+
+akhon new kono repo te push korte 
+
+git branch -M main
+git remote add origin https:// amar repo link
+git push -u origin main 
+
+tarpor repo check dilei dekha jabe sob add hoye gese github a.
+
+ er por same folder er file a kisu change korle ba update korle just 3 ta command run kora lage 
+ 
+git add . == sob file add kore 
+git commit -m "j j change korsi file a oisob er short description"
+git push
+
+git a nijer site host korte . j repo te site asa oitay dhukey settings a jaya page option khuje ber kore source a branch main select kore save dile link generate hoye jabe .
+
+kono vul hoile repo delete diye abar notun kore command run korte hobe new repo er jonno r 
+git remote add origin https:// amar repo link
+
+er poriborte git remote set-url origin https:// amar new repo link 
+dilei kaj hobe othoba .git folder ta delete diye abar new repo te push korar j 6 ta command asa oita run korlei hobe.
+
+
+create git branch, merge branch ==>
+
+branch local machine a banay nite hoy er jonno kisu commands 
+
+git branch -->
+ eita diye current branch er vitor thaka sob branch er list dekha jay
+
