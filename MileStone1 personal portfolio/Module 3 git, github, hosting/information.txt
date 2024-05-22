@@ -48,3 +48,20 @@ branch local machine a banay nite hoy er jonno kisu commands
 git branch -->
  eita diye current branch er vitor thaka sob branch er list dekha jay
 
+new branch create korar jonno 
+
+git branch j nam dibo oita likhe enter
+
+example git branch new-h1-added
+
+new branch a jaowar jonno 
+
+git checkout branch er name dile oi branch a chole jabe 
+
+example git checkout new-h1-added
+
+akhon ei sob kisu jodi normally push korte jai tobe error dibe tai new branch push korara jonno alada command dite hobe .
+
+git push --set-upstream origin amader j branch ta banaisilam oitar nam
+
+example git push --set-upstream origin new-h1-added
