@@ -87,3 +87,5 @@ r git checkout -b branch name dile akta new branch toiri hoy oi nam a then oitar
 
 akta project korar somoy main branch a mul project thake r onno branch a ak akta features thake ei jonno new branch gulake feature branch bola hoy . sob kaj sesh a main branch rekhe baki branch gulo delete o kora jay pore. ei jonno 
 git branch -d branch name dilei oi branch delete hoye jay .
+
+git status diye dekha jay j ki ki update kora hoise but push kora hoynai .
