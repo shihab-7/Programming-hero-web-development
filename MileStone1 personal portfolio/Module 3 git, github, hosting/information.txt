@@ -65,3 +65,13 @@ akhon ei sob kisu jodi normally push korte jai tobe error dibe tai new branch pu
 git push --set-upstream origin amader j branch ta banaisilam oitar nam
 
 example git push --set-upstream origin new-h1-added
+
+erpor normally git push diye update kora jabe oi new branch a er por theke .
+
+abar main branch a back korar jonne git checkout main diye main a update commit push kora jabe similarly new branch tateo checkout kore commit update kora jabe normally .
+
+Git merge korar jonno ===>>
+
+j brunch a merge korbo code oitay checkout kore oitar vitor dhuke git merge branch er nam jeta k merge korte chai 
+
+example git merge new-h1-added dilei merge hoye jabe then git push dile github a o update hoye jabe main branch a thaka code ta.
