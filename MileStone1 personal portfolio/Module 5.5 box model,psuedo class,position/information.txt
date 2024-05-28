@@ -1,0 +1,9 @@
+onek html tag aksathe likhar jonno emmet shortcuts  google theke pore nite hobe.
+
+jemon div*3>h1+p{this is a p tag} diye enter dile 3 ta div er vitor akta h1 akta p ebong p tag er vitor text add hoye jabe.
+
+inline r block element somporke ro janar jonno visit w3school.
+
+image slice somporke janar jonno visit google.
+
+pseudo class use kore hover, focus soho ro onek style banano jay. er jonno class name othoba tag er po (:) colon diye style er name diye essa moto design apply kora jay.
