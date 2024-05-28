@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to our Shop :</h1>
+    <form action="">
+        <p>Name : <input type="text" name="name" id="" placeholder="Enter your name"></p>
+        <p>Email : <input type="email" name="email" id="" placeholder="Enter your email"></p>
+        <fieldset>
+            <legend>Select items :</legend>
+<!-- field set r legend tag use korle auto akta box shape title shoho ashe jetar vitor radio option add kora jay -->
+
+            <p>
+                <label for="cloth">
+                    <input type="radio" name="1" id="cloth">Cloth
+                </label>
+            </p>
+
+<!-- label er for attribute a input tag er id dite hoy r id unique hoy always , name attribute a same value dile sob a select er jonno available hobe but unique value use korle akta kore select kora jabe -->
+
+            <p>
+                <label for="food">
+                    <input type="radio" name="2" id="food">Food
+                </label>
+            </p>
+            <p>
+                <label for="drink">
+                    <input type="radio" name="3" id="drink">Drink
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Chose Arrivle type : </legend>
+            <p>
+                <lable for="new"><input type="checkbox" name="newC" id="new">First Visit</lable>
+            </p>
+            <p>
+                <lable for="old"><input type="checkbox" name="oldC" id="old">Regular User</lable>
+            </p>
+        </fieldset>
+
+<!-- textarea tag er size row column attribute diye set kore -->
+
+        <p>Your Suggestions : <br> <textarea name="suggestion" id="suggest" rows="10" cols="20" ></textarea></p>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+    </form>
+</body>
+</html>

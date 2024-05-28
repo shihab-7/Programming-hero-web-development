@@ -1,0 +1,10 @@
+html5 a audio video tag use korle 
+vitor a src te media path set korar por controls nam er attribute na dile oita visible hoy na ba kaj kore na , then video er ratio set kora hoy width attribute use kore.
+
+a sara onno kono site er video control system tader video nijer site a show koraite chaile share option theke embedded code theke direct oder video html code ei deowa thake oita use kora jay .
+
+for introducing semantic tags in html5 ,codes become
+more clean readable like header tag indicates heading of a website which contains nav tag means navigation panel main tag contains main topics of the website where can be multiple sections which can hold article tags for blogs div tags for different designs at last footer tag holds the end materials of the website.
+
+to know more visit google for difference between
+html4 and html5 .
