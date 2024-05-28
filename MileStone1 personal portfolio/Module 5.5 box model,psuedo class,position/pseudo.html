@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* using pseudo class */
+        h1:hover{
+            color: orangered;
+            font-size: 20px;
+            background-color: gray;
+        }
+        .mid:focus{
+            color: coral;
+            font-weight: 700;
+            font-size: 20px;
+        }
+        /* kono site visit kora hoise ki na seta track kora jay */
+        a:visited{
+            color: red;
+            /* color: blue;  */
+            /* blue by default deowai thake tai abar color blue set kore dile bujha jabe na j visit hoise ki na */
+        }
+
+        /* ei rokom multiple elements shoho container gulor vitorer nth child guloke essa moto select kore design kora jay */
+        li:first-child{
+            color: chocolate;
+        }
+        li:last-child{
+            background-color: cornflowerblue;
+        }
+        /* akhon n sonkhok list element thakle jodi just jor othoba bijor gulo alada design korte chai tobe  */
+        li:nth-child(2n){
+            color:royalblue;
+        }
+        li:nth-child(2n+1){
+            color: green;
+            background-color: gray;
+        }
+
+        /* pseudo elements alada eita access er jonno :: double clone use korte hoy,
+        class name , id or tag j kono diyei pseudo element banano jay */
+        h3::after{
+            content: "Not inside html but this text from css pseudo element";
+            background-color: black;
+            color: orangered;
+        }
+        h3::before{
+            content: "Not inside html but this text from css pseudo element ";
+            background-color: black;
+            color: rgb(200, 255, 0);
+        }
+
+        
+    </style>
+
+</head>
+<body>
+    <h1>Take mouse pointer on the text</h1>
+
+    <input type="text">
+    <input class="mid" type="text" >
+    <input type="text"> <br>
+    <a href="https://www.google.com">visit google</a> <br>
+    <a href="https://www.facebook.com">visit Facebook</a> <br>
+    <a href="https://www.gmail.com">visit gmail</a>
+    <br>
+    <ul>
+        <li>Extarcnkn</li>
+        <li>Extar</li>
+        <li>Ext</li>
+        <li>Extarcn</li>
+        <li>nkn</li>
+    </ul>
+    <h3>h3 tag - 1</h3>
+    <h3>h3 tag - 2</h3>
+    <h3>h3 tag - 3</h3>
+    <h3>h3 tag - 4</h3>
+    <h3>h3 tag - 5</h3>
+    <h3>h3 tag - 6</h3>
+</body>
+</html>
