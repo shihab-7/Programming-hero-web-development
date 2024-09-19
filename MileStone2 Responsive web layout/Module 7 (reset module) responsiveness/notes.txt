@@ -1,0 +1,36 @@
+measuring units in css , absolute and relative eigula konta
+ki vag a pore setar details janar jonno google
+em = immediate parent container er size er upor depend kore bara koma
+kore
+rem = html er sizing er upor depend kore barakoma kore
+vh = viewport height
+vw = viewport width
+vmax = viewport theke auto dhore neey
+vmin = viewport theke auto dhore neey
+
+a sarao % , px, cm, inch eigulao use hoy.
+
+flex use koarar pore
+flex direction ,wrap,justify-content, align-item eisob
+use kore design korte hoy.
+
+grid use koarar pore
+
+grid-template-column a essa moto column er pixel set kore
+joto gula dite chai toto gula dite pari 
+othoba repeat() function er vitor koyta column nitbo tar number r akta koto
+pixel kore hobe seita dibo . pixel er jaygate fr o use kora jay (fr=fraction)
+
+akhon flex er moto justify content , align item soho ro onek attributes use kora jay 
+
+grid r flex er moddhe parthokko just grid 2d r flex 1d.
+
+
+alada alada device er jonno media querry use kora lagbe ei jonno google
+theke break point janar por j j device er jonno jemon design korbo oita css
+a likhte hobe .
+
+responsive korar akta tricks hoilo j agei website er akta max-width fixed 
+kore deowa . er por margin : 0 auto ; kore dilei motamuti onek valo vabe positioning hoye jay
+
+maximum khettere image k div er vitor rekhe % diye handle korbo img er fluidity er jonno .
