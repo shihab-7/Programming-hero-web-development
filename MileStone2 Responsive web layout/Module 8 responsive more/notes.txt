@@ -1,0 +1,29 @@
+flex use korle 2 ta common way te responsive kora
+jay akta media query te flex-direction column kore diye 
+r akta direct media query sara oi container a flex-direction wrap diye 
+
+calc() eita function use kore pixel er hishab sohoj a kora jay 
+jemon akta div er vitor jodi 2 ta image rakhi r sathe fixed height r width deowa thake div er
+tokhon image overflow hoye jay akhon jodi prottek image k 50 50 kore eder majhe 5px kore gap dite chai 
+tahoile img er height: calc((100% - 5px)/2); set kore dilei r over flow hobe na .
+
+kono parent class er immediate child tag k dhorte ">" use kora  hoy css a
+as example 
+.row > div {
+    flex: 1;
+}
+eikhane row class er immediate child div gulo jate soman jayga ney tai 
+flex er value 1 deya , jodi flex 1 set kora na hoito tobe prottekta div nijer
+size onujai jayga nito
+
+grid use korle essa moto kono row othoba column er 
+size set kora jay jodi kono box row borabor lomba khato korte chai tobe grid-row
+er value te span likhe jotogula row porjonto lomba khato korbo oita r
+column er khettreo same grid-column use kore span totogula column. eivabe grid box 
+sizing kora jay 
+
+
+grid-area use kore khub easily grid design kora jay
+just prottek box er naam grid-area te value hishebe diye pore parent box tar display grid kore
+grid-template-areas er value te " " er vitor upor niche
+konta kivabe thakbe oita likhe dilei oivabe auto design hoye jay. 
