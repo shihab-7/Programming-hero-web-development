@@ -6,13 +6,26 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Test site</title>
 </head>
-<body class="text-center bg-violet-200">
-    <h1 class="text-5xl">Big Hello world</h1>
-    <p class="text-lg rounded-full bg-radial from-purple-500 to-pink-300 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magnam corrupti incidunt nostrum. Aliquam rerum quaerat voluptas ex assumenda rem at, molestiae nobis, quas quos sunt ipsa eligendi est delectus similique esse amet nesciunt impedit atque. Nemo culpa optio, quibusdam minima necessitatibus, enim rem, id possimus incidunt cupiditate vel fuga?</p>
+<body class="text-center lg:bg-violet-200 md:bg-red-300">
+    <h1 class="text-5xl mt-5">Big Hello world</h1>
+    <p class="text-lg rounded-full bg-radial from-purple-500 to-pink-300 mb-3 mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio magnam corrupti incidunt nostrum. Aliquam rerum quaerat voluptas ex assumenda rem at, molestiae nobis, quas quos sunt ipsa eligendi est delectus similique esse amet nesciunt impedit atque. Nemo culpa optio, quibusdam minima necessitatibus, enim rem, id possimus incidunt cupiditate vel fuga?</p>
     <h4 class="text-3xl">medium hello world</h4>
     <h3 class="text-lg">small hello world</h3>
     <p class="font-bold text-blue-400 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, repellat!</p>
     <p class="font-semibold underline">Lorem ipsum dolor sit amet.</p>
+    <div class="space-y-5 ">
+        <p class="bg-blue-300 p-2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, id.</p>
+        <p class="bg-red-200 p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, maiores!</p>
+        <p class="bg-purple-300 py-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ut!</p>
+    </div>
+
+    <!-- tailwind responsive design -->
+     <section class="flex border-y-2 align-center jystify-center overflow-scroll">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.
+        </p>
+        <div class="text-2xl font-bold w-32 h-32">Big text</div>
+     </section>
 
 </body>
 </html>
